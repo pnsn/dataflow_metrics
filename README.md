@@ -12,7 +12,7 @@ See docs/pnsn_dataflow_metrics.md
 
 [latest results](https://seismo.ess.washington.edu/ahutko/results_for_renate.txt)
 
-Rsynced every half hour.  This version tosses out anything above 3920 cm/s^2 and is from 2021/4/1 to 2021/6/1. 
+Rsynced every half hour.  This version tosses out anything above 3920 cm/s^2 and is from 2021/4/1 to 2021/6/1. The first two columns simply count number of sncls where value is > 0.  The last two summary columns count sncls where the number-of-hours-exceeding-threshold >= ceil(N_measurements/168) if N_measurements > 336.
 
 Also, I think from the first run (AccValueMax of 392 cm/s^2 and 2020/12/16 to 2021/5/27) you counted numbers wrong maybe?  Here are the numbers I got:
 
